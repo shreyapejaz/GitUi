@@ -1,0 +1,23 @@
+.backnav{
+    background-color:lightskyblue; 
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.backNavbutton {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #333;
+    background-color: #f2f3f4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    margin-left: 1%;
+}

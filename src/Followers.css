@@ -1,0 +1,27 @@
+.followersgrid{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box; 
+    margin-left: 10%;
+}
+.follower{
+    width: 50%;
+    height: 40%;
+    text-align: left;
+}
+
+.follower button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    margin: 3px;
+  }

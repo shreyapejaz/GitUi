@@ -1,0 +1,48 @@
+.datacard {
+    transition: 0.1s;
+    width: 40%;
+    background-color: #f2f3f4;
+    margin-left:6%;
+    margin-right:3%;
+    margin-top:1%;
+    padding: 0px;
+    color: #333;
+    border-radius: 10px;
+  }
+  
+  .datacard:hover {
+    box-shadow: 0 8px 16px 0 #e5e4e2;
+  }
+  .datacontainer p,h4 {
+      text-align: left;
+      margin-left: 30%;
+      padding: 5px;
+  }
+  .datacontainer button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    margin: 3px;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+
+  .datacontainer link {
+      position: absolute;
+      bottom: 0;
+  }

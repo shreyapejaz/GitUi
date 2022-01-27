@@ -1,0 +1,44 @@
+.searchtitle{
+    margin: 5%;
+    color: #333;
+}
+.card {
+    background-color: lightblue;
+    transition: 0.1s;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 10vh;
+  }
+
+  .card:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 20vh 20vh;
+  }
+  .container input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: snow;
+    padding: 10px;
+  }
+  .container button {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color:	#D3D3D3;
+    padding: 12px;
+    transition: 0.1s;
+    margin-top: 10px;
+  }
+  .container button:hover{
+    box-shadow: 0 2px 2px 0 #333;
+  }
